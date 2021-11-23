@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Budget App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- MOBILE WEB APP, ADD THIS TO <head>..</head> OF index.html -->
+        <link rel="icon" type="image/png" href="img/favicon.png" />
+        <link rel="apple-touch-icon" href="img/favicon.png">
+        <meta name="apple-mobile-web-app-title" content="Budget App">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+        <!-- JAVASCRIPT -->
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <!-- IMAGE 1-->
+            <div id="panel_1">
+                <h1>Should I Buy This?</h1>
+                <input placeholder="what do you want...">
+                <button onClick="findOut();">Find Out</button><br>
+            </div>
+
+            <!-- Image 2 -->
+            <div id="panel_2">
+                <h1 class="no">NO!!!</h1>
+                <button onClick="tryAgain();">Try Again</button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
